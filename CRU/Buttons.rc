@@ -1,0 +1,39 @@
+100	BITMAP	Buttons/up00.bmp
+101	BITMAP	Buttons/up01.bmp
+102	BITMAP	Buttons/up02.bmp
+103	BITMAP	Buttons/up03.bmp
+104	BITMAP	Buttons/up04.bmp
+105	BITMAP	Buttons/up05.bmp
+106	BITMAP	Buttons/up06.bmp
+107	BITMAP	Buttons/up07.bmp
+108	BITMAP	Buttons/up08.bmp
+
+110	BITMAP	Buttons/up10.bmp
+111	BITMAP	Buttons/up11.bmp
+112	BITMAP	Buttons/up12.bmp
+113	BITMAP	Buttons/up13.bmp
+114	BITMAP	Buttons/up14.bmp
+115	BITMAP	Buttons/up15.bmp
+116	BITMAP	Buttons/up16.bmp
+117	BITMAP	Buttons/up17.bmp
+118	BITMAP	Buttons/up18.bmp
+
+200	BITMAP	Buttons/down00.bmp
+201	BITMAP	Buttons/down01.bmp
+202	BITMAP	Buttons/down02.bmp
+203	BITMAP	Buttons/down03.bmp
+204	BITMAP	Buttons/down04.bmp
+205	BITMAP	Buttons/down05.bmp
+206	BITMAP	Buttons/down06.bmp
+207	BITMAP	Buttons/down07.bmp
+208	BITMAP	Buttons/down08.bmp
+
+210	BITMAP	Buttons/down10.bmp
+211	BITMAP	Buttons/down11.bmp
+212	BITMAP	Buttons/down12.bmp
+213	BITMAP	Buttons/down13.bmp
+214	BITMAP	Buttons/down14.bmp
+215	BITMAP	Buttons/down15.bmp
+216	BITMAP	Buttons/down16.bmp
+217	BITMAP	Buttons/down17.bmp
+218	BITMAP	Buttons/down18.bmp

@@ -1,0 +1,29 @@
+/* Includes *****************************************************************/
+
+#include "stdafx.h"
+
+/* Dialogs ******************************************************************/
+
+IDD_RESTART DIALOG 0, 0, 100, 78
+CAPTION RESTART_VERSION
+FONT 9, _T("Segoe UI")
+STYLE DS_CENTER | DS_MODALFRAME | WS_SYSMENU
+BEGIN
+	CTEXT			_T("Graphics driver restarted."), IDC_STATIC, 0, 8, 100, 8
+	PUSHBUTTON		_T("Restart again"), IDC_RESTART, 12, 24, 76, 14
+	PUSHBUTTON		_T("Recovery mode [F8]"), IDC_RECOVERY, 12, 40, 76, 14
+	PUSHBUTTON		_T("Exit"), IDC_EXIT, 12, 56, 76, 14
+END
+
+IDD_RECOVERY DIALOG 0, 0, 100, 78
+CAPTION RESTART_VERSION
+FONT 9, _T("Segoe UI")
+STYLE DS_CENTER | DS_MODALFRAME | WS_SYSMENU
+BEGIN
+	CTEXT			_T("Recovery mode activated."), IDC_STATIC, 0, 8, 100, 8
+	PUSHBUTTON		_T("Restart driver"), IDC_RESTART, 12, 24, 76, 14
+	PUSHBUTTON		_T("Recovery mode [F8]"), IDC_RECOVERY, 12, 40, 76, 14, WS_DISABLED
+	PUSHBUTTON		_T("Exit"), IDC_EXIT, 12, 56, 76, 14
+END
+
+/****************************************************************************/

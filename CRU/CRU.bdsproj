@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+			<Option Name="ProjectType">CppVCLApplication</Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{7B406AD1-EE4B-48FD-A332-EA9D911407F2}</Option>
+		</Option>
+	</PersonalityInfo>
+	<CPlusPlusBuilder.Personality>
+		<Source>
+			<Source Name="MainSource">CRU.cpp</Source>
+		</Source>
+		<BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="1"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="Debug_Build"/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
+        <property category="build.node" name="libraries" value="vcl.lib rtl.lib"/>
+        <property category="build.node" name="name" value="CRU.exe"/>
+        <property category="build.node" name="packages" value="vclx;vcl;rtl;dbrtl;vcldb;adortl;dbxcds;dbexpress;xmlrtl;vclie;inet;inetdbbde;inetdbxpress;soaprtl;dsnap;bdertl;vcldbx"/>
+        <property category="build.node" name="sparelibs" value="rtl.lib vcl.lib"/>
+        <property category="build.node" name="use_packages" value="0"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.listfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.objfile.merge" value="1"/>
+        <property category="win32.*.win32b.tasm32" name="param.xreffile.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.Od.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.k.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.v.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.vi.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.y.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.vi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="param.filenames.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="All Configurations"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="$(BDS)\lib\vcl100.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="Custom Resolution Utility"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.4" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="_RTLDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tW.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWC.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWD.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.1" value="Custom Resolution Utility"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.1" value="Custom Resolution Utility"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.1" value="Custom Resolution Utility"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value="Custom Resolution Utility"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value=".."/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.4" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="Custom"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.2" value="Resolution"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.3" value="Utility"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.4" value="..\Custom"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.5" value="Resolution"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.6" value="Utility"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.7" value="Custom"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.8" value="Resolution"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.9" value="Utility"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="Custom Resolution Utility"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.4" value="$(BDS)\lib\psdk"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpd.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpe.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpp.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.ap.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.1" value="Custom Resolution Utility"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="$(LIBRARIES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.3" value="cp32mti.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0w32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.3" value="memmgr.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.4" value="sysinit.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="CRU.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="CRU" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="CRU.res" CONTAINERID="ResTool" LOCALCOMMAND="" UNITNAME="CRU.res" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="Buttons.rc" CONTAINERID="RCCompiler" LOCALCOMMAND="" UNITNAME="Buttons.rc" FORMNAME="Buttons.res" DESIGNCLASS=""/>
+        <FILE FILENAME="Import.rc" CONTAINERID="RCCompiler" LOCALCOMMAND="" UNITNAME="Import" FORMNAME="ImportDialog.res" DESIGNCLASS=""/>
+        <FILE FILENAME="Manifest.rc" CONTAINERID="RCCompiler" LOCALCOMMAND="" UNITNAME="Manifest" FORMNAME="CRU_Manifest.res" DESIGNCLASS=""/>
+        <FILE FILENAME="AddCEADataClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AddCEADataClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="AddCEADataClass.h"/>
+        <FILE FILENAME="AddCEADataFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AddCEADataFormClass" FORMNAME="AddCEADataForm" DESIGNCLASS="" ADDITIONAL="AddCEADataFormClass.h"/>
+        <FILE FILENAME="AddDIDDataClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AddDIDDataClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="AddDIDDataClass.h"/>
+        <FILE FILENAME="AddDIDDataFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AddDIDDataFormClass" FORMNAME="AddDIDDataForm" DESIGNCLASS="" ADDITIONAL="AddDIDDataFormClass.h"/>
+        <FILE FILENAME="AudioFormatClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AudioFormatClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="AudioFormatClass.h"/>
+        <FILE FILENAME="AudioFormatFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AudioFormatFormClass" FORMNAME="AudioFormatForm" DESIGNCLASS="" ADDITIONAL="AudioFormatFormClass.h"/>
+        <FILE FILENAME="AudioFormatListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AudioFormatListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="AudioFormatListClass.h"/>
+        <FILE FILENAME="AudioFormatListFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AudioFormatListFormClass" FORMNAME="AudioFormatListForm" DESIGNCLASS="" ADDITIONAL="AudioFormatListFormClass.h"/>
+        <FILE FILENAME="BitListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BitListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="BitListClass.h"/>
+        <FILE FILENAME="CEADataListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="CEADataListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="CEADataListClass.h"/>
+        <FILE FILENAME="ColorFormatListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ColorFormatListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="ColorFormatListClass.h"/>
+        <FILE FILENAME="ColorimetryClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ColorimetryClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="ColorimetryClass.h"/>
+        <FILE FILENAME="ColorimetryFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ColorimetryFormClass" FORMNAME="ColorimetryForm" DESIGNCLASS="" ADDITIONAL="ColorimetryFormClass.h"/>
+        <FILE FILENAME="Common.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Common" FORMNAME="" DESIGNCLASS="" ADDITIONAL="Common.h"/>
+        <FILE FILENAME="CommonFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="CommonFormClass" FORMNAME="CommonForm" DESIGNCLASS="" ADDITIONAL="CommonFormClass.h"/>
+        <FILE FILENAME="DetailedResolutionClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DetailedResolutionClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="DetailedResolutionClass.h"/>
+        <FILE FILENAME="DetailedResolutionFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DetailedResolutionFormClass" FORMNAME="DetailedResolutionForm" DESIGNCLASS="" ADDITIONAL="DetailedResolutionFormClass.h"/>
+        <FILE FILENAME="DetailedResolutionListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DetailedResolutionListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="DetailedResolutionListClass.h"/>
+        <FILE FILENAME="DIDDataListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DIDDataListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="DIDDataListClass.h"/>
+        <FILE FILENAME="DIDDetailedResolutionListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DIDDetailedResolutionListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="DIDDetailedResolutionListClass.h"/>
+        <FILE FILENAME="DIDDetailedResolutionListFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DIDDetailedResolutionListFormClass" FORMNAME="DIDDetailedResolutionListForm" DESIGNCLASS="" ADDITIONAL="DIDDetailedResolutionListFormClass.h"/>
+        <FILE FILENAME="DisplayClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DisplayClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="DisplayClass.h"/>
+        <FILE FILENAME="DisplayFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DisplayFormClass" FORMNAME="DisplayForm" DESIGNCLASS="" ADDITIONAL="DisplayFormClass.h"/>
+        <FILE FILENAME="DisplayListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DisplayListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="DisplayListClass.h"/>
+        <FILE FILENAME="EDIDListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EDIDListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="EDIDListClass.h"/>
+        <FILE FILENAME="AMDDisplayClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AMDDisplayClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="AMDDisplayClass.h"/>
+        <FILE FILENAME="NVIDIADisplayClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="NVIDIADisplayClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="NVIDIADisplayClass.h"/>
+        <FILE FILENAME="EstablishedResolutionListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EstablishedResolutionListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="EstablishedResolutionListClass.h"/>
+        <FILE FILENAME="ExtensionBlockClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ExtensionBlockClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="ExtensionBlockClass.h"/>
+        <FILE FILENAME="ExtensionBlockFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ExtensionBlockFormClass" FORMNAME="ExtensionBlockForm" DESIGNCLASS="" ADDITIONAL="ExtensionBlockFormClass.h"/>
+        <FILE FILENAME="ExtensionBlockListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ExtensionBlockListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="ExtensionBlockListClass.h"/>
+        <FILE FILENAME="FreeSyncRangeClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FreeSyncRangeClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="FreeSyncRangeClass.h"/>
+        <FILE FILENAME="FreeSyncRangeFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FreeSyncRangeFormClass" FORMNAME="FreeSyncRangeForm" DESIGNCLASS="" ADDITIONAL="FreeSyncRangeFormClass.h"/>
+        <FILE FILENAME="HDMIResolutionClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="HDMIResolutionClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="HDMIResolutionClass.h"/>
+        <FILE FILENAME="HDMIResolutionFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="HDMIResolutionFormClass" FORMNAME="HDMIResolutionForm" DESIGNCLASS="" ADDITIONAL="HDMIResolutionFormClass.h"/>
+        <FILE FILENAME="HDMIResolutionListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="HDMIResolutionListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="HDMIResolutionListClass.h"/>
+        <FILE FILENAME="HDMISupportClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="HDMISupportClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="HDMISupportClass.h"/>
+        <FILE FILENAME="HDMISupportFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="HDMISupportFormClass" FORMNAME="HDMISupportForm" DESIGNCLASS="" ADDITIONAL="HDMISupportFormClass.h"/>
+        <FILE FILENAME="HDMI2SupportClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="HDMI2SupportClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="HDMI2SupportClass.h"/>
+        <FILE FILENAME="HDMI2SupportFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="HDMI2SupportFormClass" FORMNAME="HDMI2SupportForm" DESIGNCLASS="" ADDITIONAL="HDMI2SupportFormClass.h"/>
+        <FILE FILENAME="ItemClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ItemClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="ItemClass.h"/>
+        <FILE FILENAME="ListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="ListClass.h"/>
+        <FILE FILENAME="PropertiesClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="PropertiesClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="PropertiesClass.h"/>
+        <FILE FILENAME="PropertiesFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="PropertiesFormClass" FORMNAME="PropertiesForm" DESIGNCLASS="" ADDITIONAL="PropertiesFormClass.h"/>
+        <FILE FILENAME="SpeakerSetupClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SpeakerSetupClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="SpeakerSetupClass.h"/>
+        <FILE FILENAME="SpeakerSetupFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SpeakerSetupFormClass" FORMNAME="SpeakerSetupForm" DESIGNCLASS="" ADDITIONAL="SpeakerSetupFormClass.h"/>
+        <FILE FILENAME="StandardResolutionClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="StandardResolutionClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="StandardResolutionClass.h"/>
+        <FILE FILENAME="StandardResolutionFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="StandardResolutionFormClass" FORMNAME="StandardResolutionForm" DESIGNCLASS="" ADDITIONAL="StandardResolutionFormClass.h"/>
+        <FILE FILENAME="StandardResolutionListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="StandardResolutionListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="StandardResolutionListClass.h"/>
+        <FILE FILENAME="TiledDisplayTopologyClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="TiledDisplayTopologyClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="TiledDisplayTopologyClass.h"/>
+        <FILE FILENAME="TiledDisplayTopologyFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="TiledDisplayTopologyFormClass" FORMNAME="TiledDisplayTopologyForm" DESIGNCLASS="" ADDITIONAL="TiledDisplayTopologyFormClass.h"/>
+        <FILE FILENAME="TVResolutionClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="TVResolutionClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="TVResolutionClass.h"/>
+        <FILE FILENAME="TVResolutionFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="TVResolutionFormClass" FORMNAME="TVResolutionForm" DESIGNCLASS="" ADDITIONAL="TVResolutionFormClass.h"/>
+        <FILE FILENAME="TVResolutionListClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="TVResolutionListClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="TVResolutionListClass.h"/>
+        <FILE FILENAME="TVResolutionListFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="TVResolutionListFormClass" FORMNAME="TVResolutionListForm" DESIGNCLASS="" ADDITIONAL="TVResolutionListFormClass.h"/>
+        <FILE FILENAME="VideoCapabilityClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="VideoCapabilityClass" FORMNAME="" DESIGNCLASS="" ADDITIONAL="VideoCapabilityClass.h"/>
+        <FILE FILENAME="VideoCapabilityFormClass.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="VideoCapabilityFormClass" FORMNAME="VideoCapabilityForm" DESIGNCLASS="" ADDITIONAL="VideoCapabilityFormClass.h"/>
+        <FILE FILENAME="VistaAltFixUnit.pas" CONTAINERID="PascalCompiler" LOCALCOMMAND="" UNITNAME="VistaAltFixUnit" FORMNAME="" DESIGNCLASS=""/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">1</VersionInfo>
+          <VersionInfo Name="MinorVer">0</VersionInfo>
+          <VersionInfo Name="Release">0</VersionInfo>
+          <VersionInfo Name="Build">0</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">1033</VersionInfo>
+          <VersionInfo Name="CodePage">1252</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+        </VersionInfoKeys>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs"></Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams"></Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">False</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication"></Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Excluded_Packages>
+          <Excluded_Packages Name="c:\program files (x86)\borland\bds\4.0\Bin\dclib100.bpl">Borland InterBase Express Components</Excluded_Packages>
+          <Excluded_Packages Name="c:\program files (x86)\borland\bds\4.0\Bin\dclIntraweb_80_100.bpl">Intraweb 8.0 Design Package for Borland Development Studio 2006</Excluded_Packages>
+          <Excluded_Packages Name="c:\program files (x86)\borland\bds\4.0\Bin\dclindy100.bpl">Internet Direct Version 9 (Indy) Property and Component Editors</Excluded_Packages>
+          <Excluded_Packages Name="c:\program files (x86)\borland\bds\4.0\Bin\bcbofficexp100.bpl">Borland C++Builder Office XP Servers Package</Excluded_Packages>
+          <Excluded_Packages Name="c:\program files (x86)\borland\bds\4.0\Bin\dclbcbsmp100.bpl">Borland Sample Controls Design Time Package</Excluded_Packages>
+          <Excluded_Packages Name="c:\program files (x86)\borland\bds\4.0\Bin\bcbie100.bpl">Borland C++Builder Internet Explorer 5 Components Package</Excluded_Packages>
+          <Excluded_Packages Name="c:\program files (x86)\borland\bds\4.0\Bin\dcltee100.bpl">TeeChart Components</Excluded_Packages>
+        </Excluded_Packages>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+		<buildevents/>
+	</CPlusPlusBuilder.Personality>
+</BorlandProject>
